@@ -1,0 +1,23 @@
+.footer{
+    background-color: grey;
+}
+.mshobeli-elementi{
+    width: 90%; 
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+}
+.block{
+    height: 400px;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+@media (max-width:744px){
+    .mshobeli-elementi{
+        flex-direction: column
+    }
+    }
